@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='your-project-name',
+    name='network-security',
     version='0.1',
     install_requires=[
         'cryptography',
