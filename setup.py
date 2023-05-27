@@ -1,10 +1,20 @@
 from setuptools import setup
 
 setup(
-    name='network-security-practicals',
-    version='1.0',
-    packages=['nsballs'],
+    name='your-project-name',
+    version='0.1',
     install_requires=[
-        None
+        'cryptography',
+        # List any other project dependencies here
+    ],
+ 
+    # Optional metadata
+    author='urmum',
+    description='practicals of network security',
+    url='https://github.com/Bainshedone/network-security-practicals',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
     ],
 )
