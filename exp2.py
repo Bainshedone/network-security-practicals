@@ -13,7 +13,7 @@ def dencrypt(string):
         if char.isupper():
             new_string += chr((ord(char) - 3 - 65) % 26 + 65) #Shift uppercase characters by -3
         elif char.islower():
-            new_string += chr((ord(char) +- 3 - 97) % 26 + 97) #Shift lowercase characters by +3
+            new_string += chr((ord(char) - 3 - 97) % 26 + 97) #Shift lowercase characters by +3
     return new_string
 
 
